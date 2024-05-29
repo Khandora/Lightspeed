@@ -5,6 +5,8 @@ public class Man {
     private int age;
     private List<String> favoriteBooks;
 
+    public Man() {}
+
     public Man(String name, int age, List<String> favoriteBooks) {
         this.name = name;
         this.age = age;
